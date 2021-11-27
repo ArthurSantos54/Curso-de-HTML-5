@@ -44,6 +44,34 @@
 
             <input type="hidden" name="id"><br><br>
 
+            Escolha seu veiculo:<br><br>
+            <select name="veiculo">
+
+              <optgroup label="Carros">
+                <option value="camaro"> Camaro </option>
+                <option value="hilux"> Hilux </option>
+              </optgroup>
+
+              <optgroup label="Motos">
+                <option value="pop100" selected> pop100 </option>
+                <option value="zig-50"> Zig-50 </option>
+              </optgroup>
+
+            </select><br><br>
+
+            Escolha um curso:<br>
+
+            <input name="cursos" list="listas-cursos">
+            
+            <datalist id="listas-cursos"> 
+
+              <option value="HTML5">
+              <option value="CSS3">
+              <option value="PHP">
+
+            </datalist><br><br>
+
+
             URL:<br><br>
             <input type="url" name="site"><br><br>
 
